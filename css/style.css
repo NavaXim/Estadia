@@ -1,0 +1,145 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap');
+
+h1{
+    color:#fff;
+    text-align: center;
+    font-family: 'bangers', bold;
+    font-size: 30px;
+    text-shadow: 5px 3px 8px #000;
+}
+
+h2{
+    color:#fff;
+    text-align: center;
+    font-family: 'bangers', monospace;
+    font-size: 22px;
+    text-shadow: 5px 3px 8px #000;
+}
+
+h3{
+    font-family: 'bangers', Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 18px;
+}
+
+h4{
+    text-align: center;
+    font-family: 'bangers', didot;
+    font-size: 22px;
+}
+
+h5{
+    margin-left: 20px;
+}
+
+p{
+    text-align: center;
+    font-size: 12px;
+}
+
+#lbl1 {
+    top:33px;
+    left:30px;
+}
+
+.btnLogin {
+    text-align: center;
+    background-color: #B91116; /* Color de fondo para el botón primario */
+    color: #fff; /* Color de texto para el botón primario */
+    border: none; /* Quitar borde */
+    padding: 10px; /* Espaciado interno */
+    border-radius: 5px; /* Borde redondeado */
+    cursor: pointer; /* Cambiar cursor al pasar sobre el botón */
+}
+
+.btnLogin:hover {
+    text-align: center;
+    background-color: #f39200;
+    color: #511013;
+    border: none; /* Quitar borde */
+    padding: 10px; /* Espaciado interno */
+    border-radius: 5px; /* Borde redondeado */
+    cursor: pointer; /* Cambiar cursor al pasar sobre el botón */
+}
+
+.btnAdd {
+    text-align: center;
+    color: #fff;
+    background-color: #841816;
+    border: none; /* Quitar borde */
+    padding: 10px 10px; /* Espaciado interno */
+    border-radius: 5px; /* Borde redondeado */
+}
+
+.btnCancel {
+    text-align: center; /* Alinear contenido al centro*/
+    background-color: #9d9d9c; /* Color de fondo para el botón primario */
+    color: #fff; /* Color de texto para el botón primario */
+    border: none; /* Quitar borde */
+    padding: 10px 10px; /* Espaciado interno */
+    border-radius: 5px; /* Borde redondeado */
+}
+
+.btnSave {
+    text-align: center; /* Alinear contenido al centro*/
+    background-color: #b91116; /* Color de fondo para el botón primario */
+    color: #fff; /* Color de texto para el botón primario */
+    border: none; /* Quitar borde */
+    padding: 9px 11px; /* Espaciado interno */
+    border-radius: 5px; /* Borde redondeado */
+}
+
+.btnUpdate {
+    background-color: #b91116; /* Color de fondo para el botón primario */
+    color: #fff; /* Color de texto para el botón primario */
+    border: none; /* Quitar borde */
+    padding: 8px 10px; /* Espaciado interno */
+    border-radius: 5px; /* Borde redondeado */
+}
+
+.btnDelete {
+    background-color: #f39200; /* Color de fondo para el botón secundario */
+    color: #fff; /* Color de texto para el botón secundario */
+    border: none; /* Quitar borde */
+    padding: 10px 10px; /* Espaciado interno */
+    border-radius: 5px; /* Borde redondeado */
+}
+
+.disabled {
+    opacity: 0.3;
+    color: #000;
+    cursor: not-allowed;  
+}
+
+thead {
+    background-color: #f8b688; 
+    color: #fff; /* Color de texto blanco */
+}
+
+header {
+    max-width: 100%;
+    background-color: #800101; /* Color de fondo opcional */
+    text-align: center; /* Centrar la imagen */
+}
+
+header img {
+    max-width: 100%; /* Ajustar la imagen al ancho del contenedor */
+}
+
+.modal-header {
+    background-color: #b91116; /* Azul brillante */
+    color: #ffffff; /* Color de texto blanco */
+}
+
+.modal-footer {
+    background-color: #b91116; /* Azul brillante */
+    color: #ffffff; /* Color de texto blanco */    
+}
+
+footer {
+    max-width: 100%;
+    background: #575756;
+    padding: 10px;
+    height: 100%;
+    text-align: center;
+    color: #fff;   
+}

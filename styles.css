@@ -1,0 +1,17 @@
+.boton-primario {
+    background-color: #007bff; /* Color de fondo para el botón primario */
+    color: #fff; /* Color de texto para el botón primario */
+    border: none; /* Quitar borde */
+    padding: 10px 20px; /* Espaciado interno */
+    border-radius: 5px; /* Borde redondeado */
+    cursor: pointer; /* Cambiar cursor al pasar sobre el botón */
+}
+
+.boton-secundario {
+    background-color: #6c757d; /* Color de fondo para el botón secundario */
+    color: #fff; /* Color de texto para el botón secundario */
+    border: none; /* Quitar borde */
+    padding: 10px 20px; /* Espaciado interno */
+    border-radius: 5px; /* Borde redondeado */
+    cursor: pointer; /* Cambiar cursor al pasar sobre el botón */
+}
